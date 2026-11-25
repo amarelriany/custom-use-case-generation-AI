@@ -1,0 +1,6 @@
+google-generativeai>=0.8.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+# Optional: improves direct-scrape fallback success against TLS fingerprinting
+curl_cffi>=0.7.0

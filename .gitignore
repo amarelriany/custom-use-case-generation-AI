@@ -1,0 +1,30 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Lead data & suppression lists (keep real PII out of version control)
+Already-contacted.csv
+already-contacted.csv
+Already_contacted.csv
+Leads/*.csv
+leads/*.csv
+*_with_lines.csv
+!examples/*.csv
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
